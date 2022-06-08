@@ -45,6 +45,7 @@ function init() {
             type: "list",
             message: "Please choose a license type",
             name: "license",
+            choices: ["MIT License","GNU General Public License v3.0", "Mozilla Public License 2.0"]
         },
         {
             type: "input",
@@ -60,7 +61,32 @@ function init() {
     .then((response) => {
         fs.writeFileSync(
             "readme.md",
-            `this is where we will add the ReadMe content, and variables from the inquirer inputs`
+            `
+# ${response.title}
+            
+## Description
+${response.description}
+
+## Installation
+${response.installation}
+
+## Usage
+${response.usage}
+
+## Contributing
+${response.contribution}
+
+## Tests
+${response.test}
+
+## License
+${response.license}
+
+## Questions
+My Github username is ${response.github}.
+Contact me via email at ${response.email}.
+
+            `
         );
     });
 };
