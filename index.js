@@ -59,8 +59,8 @@ function init() {
     ])
     .then((response) => {
         fs.writeFileSync(
-            "index.html",
-            `enter html here when finished`
+            "readme.md",
+            `this is where we will add the ReadMe content, and variables from the inquirer inputs`
         );
     });
 };
