@@ -14,18 +14,46 @@ function renderLicenseBadge(license) {
             break;
         case "None":
             return "";
-    }
+    };
 
     // return (data.license ? badgePLaceHolder : "");
 };
 
 // TODO: Create a function that returns the license link
 // If there is no license, return an empty string
-function renderLicenseLink(license) {}
+function renderLicenseLink(license) {
+    switch (license) {
+        case "MIT License":
+            return "https://opensource.org/licenses/MIT";
+            break;
+        case "GNU General Public License v3.0":
+            return "https://www.gnu.org/licenses/gpl-3.0";
+            break;
+        case "Mozilla Public License 2.0":
+            return "https://opensource.org/licenses/MPL-2.0";
+            break;
+        case "None":
+            return "";
+    };
+}
 
 // TODO: Create a function that returns the license section of README
 // If there is no license, return an empty string
-function renderLicenseSection(license) {}
+function renderLicenseSection(license) {
+    switch (license) {
+        case "MIT License":
+            return "https://opensource.org/licenses/MIT";
+            break;
+        case "GNU General Public License v3.0":
+            return "https://www.gnu.org/licenses/gpl-3.0";
+            break;
+        case "Mozilla Public License 2.0":
+            return "https://opensource.org/licenses/MPL-2.0";
+            break;
+        case "None":
+            return "";
+    }
+}
 
 // TODO: Create a function to generate markdown for README
 function generateMarkdown(data) {
