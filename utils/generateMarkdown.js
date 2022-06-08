@@ -1,7 +1,22 @@
 // TODO: Create a function that returns a license badge based on which license is passed in
 // If there is no license, return an empty string
 function renderLicenseBadge(license) {
-    return data.license ? badgePLaceHolder : "";
+    // siwtch statement?
+    switch (license) {
+        case "MIT License":
+            return "https://img.shields.io/badge/License-MIT-yellow.svg";
+            break;
+        case "GNU General Public License v3.0":
+            return "https://img.shields.io/badge/License-GPLv3-blue.svg";
+            break;
+        case "Mozilla Public License 2.0":
+            return "https://img.shields.io/badge/License-MPL_2.0-brightgreen.svg";
+            break;
+        case "None":
+            return "";
+    }
+
+    // return (data.license ? badgePLaceHolder : "");
 };
 
 // TODO: Create a function that returns the license link
