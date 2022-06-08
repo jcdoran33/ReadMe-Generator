@@ -15,7 +15,7 @@ function renderLicenseBadge(license) {
         case "None":
             return "";
     };
-
+    console.log(renderLicenseBadge(license));
     // return (data.license ? badgePLaceHolder : "");
 };
 
@@ -35,21 +35,24 @@ function renderLicenseLink(license) {
         case "None":
             return "";
     };
-}
+};
 
 // TODO: Create a function that returns the license section of README
 // If there is no license, return an empty string
 function renderLicenseSection(license) {
+    // console.log(renderLicenseSection(license));
     return "[![License: "+license+"]("+renderLicenseBadge(license)+")]("+renderLicenseLink(license)+")";
-}
+};
 
 // TODO: Create a function to generate markdown for README
 function generateMarkdown(data) {
     // will need to use const/let here to define the above^^ license functions as 
     // variables, we can then insert into the below MD printing
-    //ie let/const badge = renderLicenseBadge()
-    // let/const link = renderLicenseLink()
-    //let/const section = renderLicenseSection
+    let license = data.license;
+    console.log("Generate Markdown func: "+license);
+    let badge = renderLicenseBadge(license);
+    let link = renderLicenseLink(license);
+    let section = renderLicenseSection(license);
     return `
   # ${data.title}
   
@@ -84,6 +87,6 @@ function generateMarkdown(data) {
   My Github username is ${data.github}.
   Contact me via email at ${data.email}.
 `;
-}
+};
 
 module.exports = generateMarkdown;

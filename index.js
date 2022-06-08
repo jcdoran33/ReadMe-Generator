@@ -54,8 +54,8 @@ const questions = [
 
 // TODO: Create a function to write README file
 function writeToFile(fileName, markdownVar) {
-    console.log(fileName);
-    console.log(markdownVar);
+    // console.log(fileName);
+    // console.log(markdownVar);
     fs.writeFile(fileName, markdownVar, (err) => err ? console.error(err): console.log("Success!"));
 }
 
@@ -66,9 +66,11 @@ function init() {
     .then((data) => {
         let fileName = data.title+".md";
         let markdownVar = generateMarkdown(data);
-            console.log(generateMarkdown(data));
-            console.log(fileName);
+            // console.log(generateMarkdown(data));
+            // console.log(fileName);
         writeToFile(fileName, markdownVar);
+        //call license funcs??
+        
     });
 
 };
