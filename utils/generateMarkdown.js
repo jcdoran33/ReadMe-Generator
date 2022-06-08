@@ -12,6 +12,11 @@ function renderLicenseSection(license) {}
 
 // TODO: Create a function to generate markdown for README
 function generateMarkdown(data) {
+    // will need to use const/let here to define the above^^ license functions as 
+    // variables, we can then insert into the below MD printing
+    //ie let/const badge = renderLicenseBadge()
+    // let/const link = renderLicenseLink()
+    //let/const section = renderLicenseSection
     return `
   # ${data.title}
             
