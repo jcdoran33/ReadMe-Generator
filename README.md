@@ -1,26 +1,26 @@
 
-# Example Project 2
+# Example Title78
             
 ## Description
-This is the second test
+Descirption
 
 ## Installation
-Just do it
+Installationnnnn
 
 ## Usage
-Just use it
+Usageeee
 
 ## Contributing
-contribute pls
+Cont/cont
 
 ## Tests
-Pls test
+testing testing
 
 ## License
 MIT License
 
 ## Questions
-My Github username is jcdoran33.
-Contact me via email at email@email.net.
+My Github username is githubber.
+Contact me via email at email@email.
 
             
