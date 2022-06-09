@@ -1,6 +1,8 @@
 
   # Project 1
   
+  [![License: MIT License](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
   ## Table of Contents
   * [Description](#description)
   * [Installation](#installation)
@@ -11,23 +13,23 @@
   * [Questions](#questions)
 
   ## Description
-  asd
+  Description goes here
   
   ## Installation
-  sdfg
+  Installation instructions go here
   
   ## Usage
-  sdgh
+  Usage info here
   
   ## Contributing
-  sdfg
+  Contributors here
   
   ## Tests
-  sdfg
+  test info here
   
   ## License
   MIT License
   
   ## Questions
-  My Github username is auadjasd.
-  Contact me via email at asdjk.
+  My Github username is github user name.
+  Contact me via email at example@gmail.com.

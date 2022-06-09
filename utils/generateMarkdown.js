@@ -53,9 +53,12 @@ function generateMarkdown(data) {
     let badge = renderLicenseBadge(license);
     let link = renderLicenseLink(license);
     let section = renderLicenseSection(license);
+    console.log("Big test: " + badge,link,section);
     return `
   # ${data.title}
   
+  ${section}
+
   ## Table of Contents
   * [Description](#description)
   * [Installation](#installation)
