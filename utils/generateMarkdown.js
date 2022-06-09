@@ -88,7 +88,7 @@ function generateMarkdown(data) {
   ${data.test}
   
   ## License
-  ${data.license}
+  This project was created under and is covered by the ${data.license}. Click the license badge at the top of the ReadMe file for more information.
   
   ## Questions
   My Github username is ${data.github}. [Click here to go to my Github profile.](https://github.com/${data.github})  

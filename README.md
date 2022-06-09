@@ -1,5 +1,5 @@
 
-  # Project Number One
+  # Project 1
   
   [![License: MIT License](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
@@ -13,23 +13,23 @@
   * [Questions](#questions)
 
   ## Description
-  THis is the first of many projects
+  hello
   
   ## Installation
-  Install it
+  jke
   
   ## Usage
-  Use it
+  jaksd
   
   ## Contributing
-  Conttt
+  jasd
   
   ## Tests
-  instructions
+  
   
   ## License
-  MIT License
+  This project was created under and is covered by the MIT License
   
   ## Questions
   My Github username is jcdoran33. [Click here to go to my Github profile.](https://github.com/jcdoran33)  
-  Contact me with any questions via email at jack@email.com.
+  Contact me with any questions via email at email.

@@ -69,8 +69,6 @@ function init() {
             // console.log(generateMarkdown(data));
             // console.log(fileName);
         writeToFile(fileName, markdownVar);
-        //call license funcs??
-        
     });
 
 };
