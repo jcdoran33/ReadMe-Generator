@@ -1,35 +1,11 @@
+# README Generator
+  
+This application uses the NPM package [Inquirer](https://www.npmjs.com/package/inquirer) to generate a README file based on a user's provided input about their project. It creates the structure of the README file, inserts the provided input in the correct sections, and retrieves a hyperlinked license badge, if the user chose to cover their project under a license. It also generates a link to the user's Github profile page, based on their input of their Github username. It thens writes the content to a file called "README.md" for easy use in the user's repository.
 
-  # Password Generator
-  
-  [![License: Mozilla Public License 2.0](https://img.shields.io/badge/License-MPL_2.0-brightgreen.svg)](https://opensource.org/licenses/MPL-2.0)
+## Github
 
-  ## Table of Contents
-  * [Description](#description)
-  * [Installation](#installation)
-  * [Usage](#usage)
-  * [License](#license)
-  * [Contributing](#contributing)
-  * [Tests](#tests)
-  * [Questions](#questions)
+Github Respository: https://github.com/jcdoran33/ReadMe-Generator
 
-  ## Description
-  This app generates a password for a user based on the user's choice of certain criteria (length, include/exclude character sets, etc)
-  
-  ## Installation
-  To install, clone the Github repository to your computer, and open index.html in a browser.
-  
-  ## Usage
-  This app is useful for creating a randomly generated password that can include or exclude lower and upper case letters, numbers, and special characters.
-  
-  ## Contributing
-  This app was created by Jack Doran. If you would like to contribute, please contact me by email.
-  
-  ## Tests
-  This app was tested to ensure functionality.
-  
-  ## License
-  This project was created under and is covered by the Mozilla Public License 2.0. Click the license badge at the top of the ReadMe file for more information.
-  
-  ## Questions
-  My Github username is jcdoran33. [Click here to go to my Github profile.](https://github.com/jcdoran33)  
-  Contact me with any questions via email at jcdoran33@gmail.com.
+## Video Screen Capture of App
+
+This is a video link that shows the application being utilized: [Google Drive Link](https://drive.google.com/file/d/1NpdHbGNU07HpNJpYaZtmBPoWCHLvKcjt/view)
