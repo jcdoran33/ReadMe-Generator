@@ -1,7 +1,7 @@
 
   # Project 1
   
-  [![License: None]()]()
+  License: None
 
   ## Table of Contents
   * [Description](#description)
@@ -13,23 +13,23 @@
   * [Questions](#questions)
 
   ## Description
-  dsjlkfa
+  a
   
   ## Installation
-  asdjklasdf
+  b
   
   ## Usage
-  jklasdf
+  c
   
   ## Contributing
-  jklasdf
+  d
   
   ## Tests
-  asd
+  e
   
   ## License
   None
   
   ## Questions
-  My Github username is jcdoran33. [Click here to go to my Girhub profile.](https://github.com/jcdoran33)  
-  Contact me with any questions via email at email@email.net.
+  My Github username is microsoft. [Click here to go to my Github profile.](https://github.com/microsoft)  
+  Contact me with any questions via email at no.
