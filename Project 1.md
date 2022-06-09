@@ -1,7 +1,7 @@
 
   # Project 1
   
-  [![License: MIT License](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+  [![License: None]()]()
 
   ## Table of Contents
   * [Description](#description)
@@ -13,23 +13,23 @@
   * [Questions](#questions)
 
   ## Description
-  Description goes here
+  dsjlkfa
   
   ## Installation
-  Installation instructions go here
+  asdjklasdf
   
   ## Usage
-  Usage info here
+  jklasdf
   
   ## Contributing
-  Contributors here
+  jklasdf
   
   ## Tests
-  test info here
+  asd
   
   ## License
-  MIT License
+  None
   
   ## Questions
-  My Github username is github user name.
-  Contact me via email at example@gmail.com.
+  My Github username is jcdoran33. [Click here to go to my Girhub profile.](https://github.com/jcdoran33)  
+  Contact me with any questions via email at email@email.net.

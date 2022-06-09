@@ -87,8 +87,8 @@ function generateMarkdown(data) {
   ${data.license}
   
   ## Questions
-  My Github username is ${data.github}.
-  Contact me via email at ${data.email}.
+  My Github username is ${data.github}. [Click here to go to my Github profile.](https://github.com/${data.github})  
+  Contact me with any questions via email at ${data.email}.
 `;
 };
 
