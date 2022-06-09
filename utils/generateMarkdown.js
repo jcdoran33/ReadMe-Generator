@@ -15,7 +15,7 @@ function renderLicenseBadge(license) {
         case "None":
             return "";
     };
-    console.log(renderLicenseBadge(license));
+    // console.log(renderLicenseBadge(license));
     // return (data.license ? badgePLaceHolder : "");
 };
 
@@ -53,11 +53,11 @@ function generateMarkdown(data) {
     // will need to use const/let here to define the above^^ license functions as 
     // variables, we can then insert into the below MD printing
     let license = data.license;
-    console.log("Generate Markdown func: "+license);
+    // console.log("Generate Markdown func: "+license);
     let badge = renderLicenseBadge(license);
     let link = renderLicenseLink(license);
     let section = renderLicenseSection(license);
-    console.log("Big test: " + badge,link,section);
+    // console.log("Big test: " + badge,link,section);
     return `
   # ${data.title}
   

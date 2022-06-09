@@ -64,7 +64,7 @@ function init() {
     inquirer
     .prompt(questions)
     .then((data) => {
-        let fileName = data.title+".md";
+        let fileName = "README.md";
         let markdownVar = generateMarkdown(data);
             // console.log(generateMarkdown(data));
             // console.log(fileName);
